@@ -9,7 +9,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
     <title>Favorite Albums</title>
+
+    <style>
+      html {
+         scroll-behavior: smooth;
+      }
+    </style>
   </head>
+  
   <body class="bg-dark">
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
@@ -34,83 +41,128 @@
 
     <section class="jumbotron" id="top">
         <h1 class="display-4">My Favorite Music</h1>
+        <img class="col-12 my-5" src="assets/Featured-Metal-Guitars-Best-Guitars-for-Metal.jpg" alt="">
         <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
         <hr class="my-4">
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
     </section>
 
     <section class="container" id="my-albums">
         <div class="row">
-            <div class="col-6">
+            <div class="col-6 col-sm-4 col-md-3 mb-3">
                <div class="card">
                   <img src="assets/Appetite_for_Destruction.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                      <h5 class="card-title">Appetite for Destruction <span class="text-secondary">53:52</span></h5>
-                     <div class="d-flex align-items-center">
-                        <span class="card-text">Guns N' Roses</span>
-                        <label class="mb-0 mx-3 text-uppercase badge badge-secondary">hair metal</label>
+                     <div class="d-flex align-items-lg-center flex-column flex-lg-row">
+                        <span class="card-text">Guns N'Roses</span>
+                        <label class="mb-0 mx-lg-3 text-uppercase badge badge-secondary">hair metal</label>
                      </div>                  
                   </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <section class="container">
-        <div class="row">
-            <div class="col-6">
+            <div class="col-6 col-sm-4 col-md-3 mb-3">
                <div class="card">
                   <img src="assets/Motley_Crue_-_Dr_Feelgood-front.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                      <h5 class="card-title">Dr. Feelgood <span class="text-secondary">45:07</span></h5>
-                     <div class="d-flex align-items-center">
+                     <div class="d-flex align-items-lg-center flex-column flex-lg-row">
                         <span class="card-text">Mötley Crüe</span>
-                        <label class="mb-0 mx-3 text-uppercase badge badge-secondary">Glam metal</label>
+                        <label class="mb-0 mx-lg-3 text-uppercase badge badge-secondary">Glam metal</label>
                      </div>                  
                   </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <section class="container">
-        <div class="row">
-            <div class="col-6">
+            <div class="col-6 col-sm-4 col-md-3 mb-3">
                <div class="card">
                   <img src="assets/Metallica_-_Metallica_cover.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                      <h5 class="card-title">Metallica <span class="text-secondary">62:40</span></h5>
-                     <div class="d-flex align-items-center">
+                     <div class="d-flex align-items-lg-center flex-column flex-lg-row">
                         <span class="card-text">Metallica</span>
-                        <label class="mb-0 mx-3 text-uppercase badge badge-secondary">Heavy metal</label>
+                        <label class="mb-0 mx-lg-3 text-uppercase badge badge-secondary">Heavy metal</label>
                      </div>                  
                   </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <section class="container">
-        <div class="row">
-            <div class="col-6">
+            <div class="col-6 col-sm-4 col-md-3 mb-3">
                <div class="card">
                   <img src="assets/Iron_Maiden_-_Powerslave.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                      <h5 class="card-title">Powerslave <span class="text-secondary">51:12</span></h5>
-                     <div class="d-flex align-items-center">
+                     <div class="d-flex align-items-lg-center flex-column flex-lg-row">
                         <span class="card-text">Iron Maiden</span>
-                        <label class="mb-0 mx-3 text-uppercase badge badge-secondary">Heavy metal</label>
+                        <label class="mb-0 mx-lg-3 text-uppercase badge badge-secondary">Heavy metal</label>
                      </div>                  
                   </div>
                 </div>
             </div>
+
+            <div class="col-6 col-sm-4 col-md-3 mb-3">
+              <div class="card">
+                 <img src="assets/Appetite_for_Destruction.jpg" class="card-img-top" alt="...">
+                 <div class="card-body">
+                    <h5 class="card-title">Appetite for Destruction <span class="text-secondary">53:52</span></h5>
+                    <div class="d-flex align-items-lg-center flex-column flex-lg-row">
+                       <span class="card-text">Guns N'Roses</span>
+                       <label class="mb-0 mx-lg-3 text-uppercase badge badge-secondary">hair metal</label>
+                    </div>                  
+                 </div>
+               </div>
+           </div>
+
+           <div class="col-6 col-sm-4 col-md-3 mb-3">
+              <div class="card">
+                 <img src="assets/Motley_Crue_-_Dr_Feelgood-front.jpg" class="card-img-top" alt="...">
+                 <div class="card-body">
+                    <h5 class="card-title">Dr. Feelgood <span class="text-secondary">45:07</span></h5>
+                    <div class="d-flex align-items-lg-center flex-column flex-lg-row">
+                       <span class="card-text">Mötley Crüe</span>
+                       <label class="mb-0 mx-lg-3 text-uppercase badge badge-secondary">Glam metal</label>
+                    </div>                  
+                 </div>
+               </div>
+           </div>
+
+           <div class="col-6 col-sm-4 col-md-3 mb-3">
+              <div class="card">
+                 <img src="assets/Metallica_-_Metallica_cover.jpg" class="card-img-top" alt="...">
+                 <div class="card-body">
+                    <h5 class="card-title">Metallica <span class="text-secondary">62:40</span></h5>
+                    <div class="d-flex align-items-lg-center flex-column flex-lg-row">
+                       <span class="card-text">Metallica</span>
+                       <label class="mb-0 mx-lg-3 text-uppercase badge badge-secondary">Heavy metal</label>
+                    </div>                  
+                 </div>
+               </div>
+           </div>
+
+           <div class="col-6 col-sm-4 col-md-3 mb-3">
+              <div class="card">
+                 <img src="assets/Iron_Maiden_-_Powerslave.jpg" class="card-img-top" alt="...">
+                 <div class="card-body">
+                    <h5 class="card-title">Powerslave <span class="text-secondary">51:12</span></h5>
+                    <div class="d-flex align-items-lg-center flex-column flex-lg-row">
+                       <span class="card-text">Iron Maiden</span>
+                       <label class="mb-0 mx-lg-3 text-uppercase badge badge-secondary">Heavy metal</label>
+                    </div>                  
+                 </div>
+               </div>
+           </div>
+          </div>
+        </section>
+
+    <section class="container text-white" id="all-time-fav">
+        <h1 class="my-5 px-5">All Time Favorite</h1>
+        <div class="row pb-5 px-5">
+           <div class="col-12 d-flex flex-column flex-sm-row align-items-sm-center justify-content-center">
+               <img src="assets/Appetite_for_Destruction.jpg" alt="">
+               <p class="mt-5 ml-sm-4">Appetite for Destruction is the debut studio album by American hard rock band Guns N' Roses, released by Geffen Records on July 21, 1987</p>
+           </div>
         </div>
-    </section>
-
-    <section class="container" id="all-time-fav">
-        <h1>All Time Favorite</h1>
-
     </section>
 
     <!-- Optional JavaScript; choose one of the two! -->
